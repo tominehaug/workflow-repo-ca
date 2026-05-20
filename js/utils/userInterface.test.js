@@ -1,6 +1,8 @@
 import { isActivePath } from "./userInterface.js";
 import { expect, describe, it } from "vitest";
 
+// test
+
 describe("isActivePath", () => {
     it("returns true when current path matches href exactly", () => {
         const href = "/about";
