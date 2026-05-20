@@ -15,10 +15,12 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@vitest/browser": "^4.1.7",
     "concurrently": "^9.2.1",
     "eslint": "^10.3.0",
     "globals": "^17.6.0",
     "husky": "^9.1.7",
+    "jsdom": "^29.1.1",
     "lint-staged": "^16.4.0",
     "live-server": "^1.2.2",
     "prettier": "^3.8.3",
