@@ -15,5 +15,6 @@ export async function getVenue(id) {
     throw new Error(json.errors?.[0]?.message || "Fetching venue failed");
   }
 
-  return json;
+  return json.data;
 }
+ 
