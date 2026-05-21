@@ -8,8 +8,10 @@
     "watch:css": "tailwindcss -i ./css/input.css -o ./css/style.css --watch",
     "build:css": "tailwindcss -i ./css/input.css -o ./css/style.css",
     "prepare": "husky",
-    "test": "vitest",
-    "start": "live-server --port=5500"
+    "start": "live-server --port=5500",
+    "unit": "vitest",
+    "e2e": "npx playwright test",
+    "e2e:headed": "npx playwright test --headed"
   },
   "keywords": [],
   "author": "",
