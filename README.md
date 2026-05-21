@@ -20,6 +20,12 @@ This project is a school project for my third semester Workflow course. The purp
 
 ### Installation
 
+Clone the repository:
+
+```bash
+git clone https://github.com/tominehaug/workflow-repo-ca.git
+```
+
 ```bash
 npm install
 ```
